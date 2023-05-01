@@ -65,4 +65,4 @@ class File(object):
             return None
         return self.file.text if self.fetched else self.file.read()
 
-get_file = lambda *args: File(*args)
+open_file = lambda *args: File(*args)
